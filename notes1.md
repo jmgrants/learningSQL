@@ -38,3 +38,13 @@
 * Structure:
     - update _tableName_ set _columnName1_ = _newValue1_, _columnName2_ = _newValue2_ where _columnName3_ = _'string'_
     - the new value can be a forumla (e.g. _age + 1_)
+
+## Deleting records
+
+* Structure:
+    - delete from _tableName_ where _columnName_ LOGICAL _valueInSingleQuotes_
+    - note: do __NOT__ leave off the "where" clause, or all records will be deleted
+
+## Drop a table (delete entire table)
+
+* Structure: drop table _tableName_
